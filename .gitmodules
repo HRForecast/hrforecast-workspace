@@ -1,0 +1,60 @@
+[submodule "@smart/api"]
+	path = NodeJS-smartAPI
+	url = git@github.com:HRForecast/NodeJS-smartAPI.git
+	branch = master
+[submodule "@smart/ui"]
+	path = UI-components
+	url = git@github.com:HRForecast/UI-components.git
+	branch = master
+[submodule "@ludi/api-v1"]
+	path = NodeJS-LudiCloud
+	url = git@github.com:HRForecast/NodeJS-Ludicloud.git
+	branch = master
+[submodule "@ludi/api-v2"]
+	path = NodeJS-LudiCloud-API
+	url = git@github.com:HRForecast/NodeJS-LudiCloud-API.git
+	branch = master
+[submodule "@ludi/ui"]
+	path = ReactJS-Ludicloud
+	url = git@github.com:HRForecast/ReactJS-Ludicloud.git
+	branch = master
+[submodule "@smartpeople/api"]
+	path = NodeJS-smartPeople-API
+	url = git@github.com:HRForecast/NodeJS-smartPeople-API.git
+	branch = master
+[submodule "@smartpeople/ui"]
+	path = ReactJS-smartPeople
+	url = git@github.com:HRForecast/ReactJS-smartPeople.git
+	branch = master
+[submodule "@smartlibrary/api"]
+	path = NodeJS-smartLibrary
+	url = git@github.com:HRForecast/NodeJS-smartLibrary.git
+	branch = master
+[submodule "@smartlibrary/ui"]
+	path = ReactJS-smartLibrary
+	url = git@github.com:HRForecast/ReactJS-smartLibrary.git
+	branch = master
+[submodule "eslint-config"]
+	path = eslint-config
+	url = git@github.com:HRForecast/eslint-config.git
+	branch = master
+[submodule "style-config"]
+	path = eslint-config
+	url = git@github.com:HRForecast/stylelint-config.git
+	branch = master
+[submodule "prettier-config"]
+	path = prettier-config
+	url = git@github.com:HRForecast/prettier-config.git
+	branch = master
+[submodule "bundle-config"]
+	path = prettier-config
+	url = git@github.com:HRForecast/bundle-config.git
+	branch = master
+[submodule "tsconfig"]
+	path = tsconfig
+	url = git@github.com:HRForecast/tsconfig.git
+	branch = master
+[submodule "git-hooks-config"]
+	path = git-hooks-config
+	url = git@github.com:HRForecast/git-hooks-config.git
+	branch = master

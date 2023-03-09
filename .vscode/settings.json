@@ -1,0 +1,43 @@
+{
+  "explorer.openEditors.visible": 8,
+  "explorer.openEditors.sortOrder": "editorOrder",
+  "workbench.editor.limit.value": 100,
+  "git.enableCommitSigning": false,
+  "git-graph.repository.sign.commits": false,
+  "git-graph.repository.sign.tags": false,
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "editor.codeActionsOnSave": [],
+  "editor.formatOnSaveMode": "modifications",
+  "git.autofetchPeriod": 60,
+  "git.pullTags": false,
+  "git.checkoutType": ["local", "remote"],
+  "task.allowAutomaticTasks": "on",
+  "typescript.tsserver.useSeparateSyntaxServer": false,
+  "typescript.tsserver.useSyntaxServer": "never",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "typescript.tsserver.maxTsServerMemory": 5120,
+  "typescript.tsserver.log": "off",
+  "typescript.tsdk": "tsconfig/node_modules/typescript/lib",
+  "typescript.validate.enable": true,
+  "cSpell.enabled": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.idea": true,
+    "**/node_modules": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "npm.packageManager": "npm",
+  "eslint.packageManager": "npm",
+  "eslint.lintTask.enable": true,
+  "terminal.integrated.env.osx": {
+    "PATH": "${workspaceFolder}/NodeJS-smartAPI/node_modules/.bin:${workspaceFolder}/eslint-config/node_modules/.bin"
+  },
+  "terminal.integrated.env.linux": {
+    "PATH": "${workspaceFolder}/NodeJS-smartAPI/node_modules/.bin:${workspaceFolder}/eslint-config/node_modules/.bin"
+  },
+  "i18n-ally.localesPaths": []
+}
