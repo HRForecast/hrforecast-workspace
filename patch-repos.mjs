@@ -83,13 +83,6 @@ async function patchPkgJson({ dir }) {
   }
 
   await fs.writeFile(pkgFile, JSON.stringify(pkg, null, 2) + "\n");
-
-  if (COMMAND === "-p") {
-    // `cd ${dir} && rm -rf node_modules package-lock.json yarn.lock bun.lockb pnpm-lock.yaml && pnpm install`
-    /* await shell(
-      `cd ${dir} && pnpm install`
-    ); */
-  }
 }
 
 await Promise.all(gitNpmFolders.map(patchPkgJson));

@@ -16,5 +16,15 @@
     "bundle-config",
     "tsconfig",
     "git-hooks-config"
-  ]
+  ],
+  "resolutions": {
+    "@smart/api": "file:./NodeJS-smartAPI",
+    "@smart/ui": "file:./UI-components",
+    "@smart/eslint-config": "file:./eslint-config",
+    "@smart/stylelint-config": "file:./stylelint-config",
+    "@smart/prettier-config": "file:./prettier-config",
+    "@smart/bundle-config": "file:./bundle-config",
+    "@smart/tsconfig": "file:./tsconfig",
+    "@smart/git-hooks-config": "file:./git-hooks-config"
+  }
 }
