@@ -262,7 +262,7 @@
       }
     },
     {
-      "label": "dev-server ludicloud-api-v1",
+      "label": "server:@ludi/api-v1",
       "type": "shell",
       "command": "npm run dev",
       "group": "none",
@@ -282,7 +282,7 @@
       }
     },
     {
-      "label": "dev-server smartlibrary-api",
+      "label": "server:@smartlibrary/api",
       "type": "shell",
       "command": "npm run dev",
       // "dependsOn": ["migration smartlibrary-api"],
@@ -364,7 +364,7 @@
       }
     },
     {
-      "label": "dev-server smartpeople-api",
+      "label": "server:@smartpeople/api",
       "type": "shell",
       "command": "npm run dev",
       // "dependsOn": ["migration smartpeople-api"],
@@ -407,7 +407,7 @@
       }
     },
     {
-      "label": "dev-server ludicloud-api-v2",
+      "label": "server:@ludi/api-v2",
       "type": "shell",
       "command": "npm run dev",
       // "dependsOn": ["migration ludicloud-api-v2"],
@@ -452,7 +452,7 @@
       }
     },
     {
-      "label": "dev-server ludicloud-react",
+      "label": "server:@ludi/ui",
       "type": "shell",
       "command": "npm run dev",
       "problemMatcher": ["$eslint-stylish"],
@@ -475,7 +475,7 @@
       }
     },
     {
-      "label": "dev-server smartlibrary-react",
+      "label": "server:@smartlibrary/ui",
       "type": "shell",
       "command": "npm run dev",
       "problemMatcher": ["$eslint-stylish"],
@@ -498,7 +498,7 @@
       }
     },
     {
-      "label": "dev-server smartpeople-react",
+      "label": "server:@smartpeople/ui",
       "type": "shell",
       "command": "npm run dev",
       "problemMatcher": ["$eslint-stylish"],

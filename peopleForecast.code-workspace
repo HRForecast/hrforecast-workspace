@@ -1,0 +1,646 @@
+{
+  "folders": [
+    {
+      "name": "smart-api",
+      "path": "NodeJS-smartAPI"
+    },
+    {
+      "name": "smart-ui",
+      "path": "UI-components"
+    },
+    {
+      "name": "LC-api-v1",
+      "path": "Nodejs-Ludicloud"
+    },
+    {
+      "name": "LC-api-v2",
+      "path": "NodeJS-LudiCloud-API"
+    },
+    {
+      "name": "LC-react",
+      "path": "ReactJS-Ludicloud"
+    },
+    {
+      "name": "smartpeople-api",
+      "path": "NodeJS-smartPeople-API"
+    },
+    {
+      "name": "smartpeople-react",
+      "path": "ReactJS-smartPeople"
+    },
+    {
+      "name": "smartlib-api",
+      "path": "NodeJS-smartLibrary"
+    },
+    {
+      "name": "smartlib-react",
+      "path": "ReactJS-smartLibrary"
+    },
+    {
+      "name": "esconfig",
+      "path": "eslint-config"
+    },
+    {
+      "name": "stylelint-conf",
+      "path": "stylelint-config"
+    },
+    {
+      "name": "prettier-conf",
+      "path": "prettier-config"
+    },
+    {
+      "name": "bundle-conf",
+      "path": "bundle-config"
+    },
+    {
+      "name": "tsconfig",
+      "path": "tsconfig"
+    },
+    {
+      "name": "git-hooks-conf",
+      "path": "git-hooks-config"
+    }
+  ],
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      /*{
+          "label": "eslint ludicloud-api-v2",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/NodeJS-LudiCloud-API"
+          }
+        },
+        {
+          "label": "eslint ludicloud-api-v1",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/Nodejs-Ludicloud"
+          }
+        },
+        {
+          "label": "eslint smart-api",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/NodeJS-smartAPI"
+          }
+        },
+        {
+          "label": "eslint ludicloud-react",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/ReactJS-Ludicloud"
+          }
+        },
+        {
+          "label": "eslint smart-ui",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/UI-components"
+          }
+        },
+        {
+          "label": "eslint smartpeople-api",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/NodeJS-smartPeople-API"
+          }
+        },
+        {
+          "label": "eslint smartpeople-ui",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/ReactJS-smartPeople"
+          }
+        },
+        {
+          "label": "eslint smartplan-ui",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/ReactJS-smartPlan-UI"
+          }
+        },
+        {
+          "label": "eslint smartlibrary-api",
+          "type": "shell",
+          "command": "npm run lint",
+          "problemMatcher": [
+            "$eslint-stylish"
+          ],
+          "group": "none",
+          "presentation": {
+            "reveal": "silent",
+            "panel": "shared",
+            "focus": false,
+            "showReuseMessage": false,
+            "clear": true
+          },
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "options": {
+            "cwd": "${workspaceFolder}/NodeJS-smartLibrary"
+          }
+        },*/
+      {
+        "label": "azure login",
+        "type": "shell",
+        "command": "./azure-aws-auto.sh ",
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "silent",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "cwd": "/Users/dalisoft/Desktop/azure-aws"
+        }
+      },
+      {
+        "label": "tunnel for database",
+        "type": "shell",
+        "command": "./tunnel-db-aws.sh",
+        "dependsOn": ["azure login"],
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "silent",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "cwd": "/Users/dalisoft/Desktop/azure-aws"
+        }
+      },
+      {
+        "label": "tunnel for sftp",
+        "type": "shell",
+        "command": "./tunnel-sftp.sh",
+        "dependsOn": ["azure login"],
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "silent",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "cwd": "/Users/dalisoft/Desktop/azure-aws"
+        }
+      },
+      {
+        "label": "server:@ludi/api-v1",
+        "type": "shell",
+        "command": "npm run dev",
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "cwd": "${workspaceFolder}/Nodejs-Ludicloud",
+          "env": { "DEBUG": "fast-sheet-parser,pipeline" }
+        }
+      },
+      {
+        "label": "server:@smartlibrary/api",
+        "type": "shell",
+        "command": "npm run dev",
+        // "dependsOn": ["migration smartlibrary-api"],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "cwd": "${workspaceFolder}/NodeJS-smartLibrary",
+          "env": { "DEBUG": "fast-sheet-parser,pipeline" }
+        }
+      },
+      {
+        "label": "migration smartlibrary-api",
+        "type": "shell",
+        "command": "npm run migrate up",
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "env": { "RELEASE_DB_NAME": "smartapps-v2" },
+          "cwd": "${workspaceFolder}/NodeJS-smartLibrary"
+        }
+      },
+      {
+        "label": "dev-test-file",
+        "type": "shell",
+        "command": "echo \"${relativeFile}\" | egrep -o \"app/\\S*\" | sed 's/app\\///g' | sed 's/.js//g' | xargs npm run develop",
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "cwd": "${fileWorkspaceFolder}"
+        }
+      },
+      {
+        "label": "test-file",
+        "type": "shell",
+        "command": "echo \"${relativeFile}\" | egrep -o \"app/\\S*\" | sed 's/app\\///g' | sed 's/.js//g' | xargs npm run test",
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "cwd": "${fileWorkspaceFolder}"
+        }
+      },
+      {
+        "label": "server:@smartpeople/api",
+        "type": "shell",
+        "command": "npm run dev",
+        // "dependsOn": ["migration smartpeople-api"],
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "cwd": "${workspaceFolder}/NodeJS-smartPeople-API",
+          "env": { "DEBUG": "fast-sheet-parser,pipeline" }
+        }
+      },
+      {
+        "label": "migration smartpeople-api",
+        "type": "shell",
+        "command": "npm run migrate up",
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "env": { "RELEASE_DB_NAME": "smartapps-v2" },
+          "cwd": "${workspaceFolder}/NodeJS-smartPeople-API"
+        }
+      },
+      {
+        "label": "server:@ludi/api-v2",
+        "type": "shell",
+        "command": "npm run dev",
+        // "dependsOn": ["migration ludicloud-api-v2"],
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "cwd": "${workspaceFolder}/NodeJS-LudiCloud-API",
+          "env": { "DEBUG": "fast-sheet-parser,pipeline" }
+        }
+      },
+      {
+        "label": "migration ludicloud-api-v2",
+        "type": "shell",
+        "command": "npm run migrate up",
+        "problemMatcher": [],
+        "group": "none",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "default"
+        },
+        "options": {
+          "env": {
+            "RELEASE_DB_NAME": "smartapps-v2"
+          },
+          "cwd": "${workspaceFolder}/NodeJS-LudiCloud-API"
+        }
+      },
+      {
+        "label": "server:@ludi/ui",
+        "type": "shell",
+        "command": "npm run dev",
+        "problemMatcher": ["$eslint-stylish"],
+        "group": "none",
+        "presentation": {
+          "reveal": "silent",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "env": {
+            "SERVER_PORT": "3000"
+          },
+          "cwd": "${workspaceFolder}/ReactJS-Ludicloud"
+        }
+      },
+      {
+        "label": "server:@smartlibrary/ui",
+        "type": "shell",
+        "command": "npm run dev",
+        "problemMatcher": ["$eslint-stylish"],
+        "group": "none",
+        "presentation": {
+          "reveal": "silent",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "env": {
+            "SERVER_PORT": "4000"
+          },
+          "cwd": "${workspaceFolder}/ReactJS-smartLibrary"
+        }
+      },
+      {
+        "label": "server:@smartpeople/ui",
+        "type": "shell",
+        "command": "npm run dev",
+        "problemMatcher": ["$eslint-stylish"],
+        "group": "none",
+        "presentation": {
+          "reveal": "silent",
+          "panel": "new",
+          "focus": false,
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "options": {
+          "env": {
+            "SERVER_PORT": "5000"
+          },
+          "cwd": "${workspaceFolder}/ReactJS-smartPeople"
+        }
+      }
+    ]
+  },
+  "settings": {
+    "explorer.openEditors.visible": 8,
+    "explorer.openEditors.sortOrder": "editorOrder",
+    "workbench.editor.limit.value": 100,
+    "git.enableCommitSigning": false,
+    "git-graph.repository.sign.commits": false,
+    "git-graph.repository.sign.tags": false,
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "editor.codeActionsOnSave": [],
+    "editor.formatOnSaveMode": "modifications",
+    "git.autofetchPeriod": 60,
+    "git.pullTags": false,
+    "git.checkoutType": [
+      "local",
+      "remote"
+    ],
+    "task.allowAutomaticTasks": "on",
+    "typescript.tsserver.useSeparateSyntaxServer": false,
+    "typescript.tsserver.useSyntaxServer": "never",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "typescript.tsserver.maxTsServerMemory": 5120,
+    "typescript.tsserver.log": "off",
+    "typescript.tsdk": "tsconfig/node_modules/typescript/lib",
+    "typescript.validate.enable": true,
+    "cSpell.enabled": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.idea": true,
+      "**/node_modules": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+    "npm.packageManager": "npm",
+    "eslint.packageManager": "npm",
+    "eslint.lintTask.enable": true,
+    "eslint.workingDirectories": [
+      "${workspaceFolder}/../NodeJS-smartAPI",
+      "${workspaceFolder}/../NodeJS-LudiCloud-API",
+      "${workspaceFolder}/../Nodejs-Ludicloud",
+      "${workspaceFolder}/../ReactJS-Ludicloud",
+      "${workspaceFolder}/../UI-components",
+      "${workspaceFolder}/../NodeJS-smartPeople-API",
+      "${workspaceFolder}/../ReactJS-smartPeople",
+      "${workspaceFolder}/../NodeJS-smartLibrary",
+      "${workspaceFolder}/../ReactJS-smartLibrary",
+      // "${workspaceFolder}/../ReactJS-smartPlan-UI"
+    ],
+    "terminal.integrated.env.osx": {
+      "PATH": "${workspaceFolder}/node_modules/.bin:../eslint-config/node_modules/.bin"
+    },
+    "terminal.integrated.env.linux": {
+      "PATH": "${workspaceFolder}/node_modules/.bin:../eslint-config/node_modules/.bin"
+    },
+    "i18n-ally.localesPaths": []
+  }
+}

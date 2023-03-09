@@ -19,10 +19,6 @@ artifacts
 .idea
 **/.idea
 
-# VS(Code/Codium)
-.vscode
-.vscodium
-
 # VIM
 .vim/plugged
 .vim/.netrwhist
@@ -129,7 +125,6 @@ vendor
 .lock-wscript
 yarn.lock
 .yarn-integrity
-pnpm-lock.yaml
 
 #################
 ### Security ####
