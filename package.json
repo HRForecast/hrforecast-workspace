@@ -1,5 +1,6 @@
 {
   "name": "@smart/root",
+  "private": true,
   "workspaces": [
     "NodeJS-smartAPI",
     "UI-components",
