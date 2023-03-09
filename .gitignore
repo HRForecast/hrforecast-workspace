@@ -125,6 +125,7 @@ vendor
 .lock-wscript
 yarn.lock
 .yarn-integrity
+pnpm-lock.yaml
 
 #################
 ### Security ####
