@@ -39,7 +39,7 @@
 	url = git@github.com:HRForecast/eslint-config.git
 	branch = master
 [submodule "style-config"]
-	path = eslint-config
+	path = stylelint-config
 	url = git@github.com:HRForecast/stylelint-config.git
 	branch = master
 [submodule "prettier-config"]
@@ -47,7 +47,7 @@
 	url = git@github.com:HRForecast/prettier-config.git
 	branch = master
 [submodule "bundle-config"]
-	path = prettier-config
+	path = bundle-config
 	url = git@github.com:HRForecast/bundle-config.git
 	branch = master
 [submodule "tsconfig"]
