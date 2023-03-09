@@ -1,0 +1,20 @@
+{
+  "name": "@smart/root",
+  "workspaces": [
+    "NodeJS-smartAPI",
+    "UI-components",
+    "Nodejs-Ludicloud",
+    "NodeJS-LudiCloud-API",
+    "ReactJS-Ludicloud",
+    "NodeJS-smartPeople-API",
+    "ReactJS-smartPeople",
+    "NodeJS-smartLibrary",
+    "ReactJS-smartLibrary",
+    "eslint-config",
+    "stylelint-config",
+    "prettier-config",
+    "bundle-config",
+    "tsconfig",
+    "git-hooks-config"
+  ]
+}
