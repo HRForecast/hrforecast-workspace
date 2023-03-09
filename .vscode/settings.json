@@ -17,7 +17,6 @@
   "typescript.tsserver.experimental.enableProjectDiagnostics": false,
   "typescript.tsserver.maxTsServerMemory": 5120,
   "typescript.tsserver.log": "off",
-  "typescript.tsdk": "tsconfig/node_modules/typescript/lib",
   "typescript.validate.enable": true,
   "cSpell.enabled": false,
   "files.exclude": {

@@ -83,7 +83,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/NodeJS-LudiCloud-API"
+            "cwd": "${workspaceFolder}/../NodeJS-LudiCloud-API"
           }
         },
         {
@@ -105,7 +105,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/Nodejs-Ludicloud"
+            "cwd": "${workspaceFolder}/../Nodejs-Ludicloud"
           }
         },
         {
@@ -127,7 +127,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/NodeJS-smartAPI"
+            "cwd": "${workspaceFolder}/../NodeJS-smartAPI"
           }
         },
         {
@@ -149,7 +149,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/ReactJS-Ludicloud"
+            "cwd": "${workspaceFolder}/../ReactJS-Ludicloud"
           }
         },
         {
@@ -171,7 +171,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/UI-components"
+            "cwd": "${workspaceFolder}/../UI-components"
           }
         },
         {
@@ -193,7 +193,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/NodeJS-smartPeople-API"
+            "cwd": "${workspaceFolder}/../NodeJS-smartPeople-API"
           }
         },
         {
@@ -215,7 +215,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/ReactJS-smartPeople"
+            "cwd": "${workspaceFolder}/../ReactJS-smartPeople"
           }
         },
         {
@@ -237,7 +237,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/ReactJS-smartPlan-UI"
+            "cwd": "${workspaceFolder}/../ReactJS-smartPlan-UI"
           }
         },
         {
@@ -259,7 +259,7 @@
             "runOn": "folderOpen"
           },
           "options": {
-            "cwd": "${workspaceFolder}/NodeJS-smartLibrary"
+            "cwd": "${workspaceFolder}/../NodeJS-smartLibrary"
           }
         },*/
       {
@@ -340,7 +340,7 @@
           "runOn": "folderOpen"
         },
         "options": {
-          "cwd": "${workspaceFolder}/Nodejs-Ludicloud",
+          "cwd": "${workspaceFolder}/../Nodejs-Ludicloud",
           "env": { "DEBUG": "fast-sheet-parser,pipeline" }
         }
       },
@@ -361,7 +361,7 @@
           "runOn": "folderOpen"
         },
         "options": {
-          "cwd": "${workspaceFolder}/NodeJS-smartLibrary",
+          "cwd": "${workspaceFolder}/../NodeJS-smartLibrary",
           "env": { "DEBUG": "fast-sheet-parser,pipeline" }
         }
       },
@@ -383,7 +383,7 @@
         },
         "options": {
           "env": { "RELEASE_DB_NAME": "smartapps-v2" },
-          "cwd": "${workspaceFolder}/NodeJS-smartLibrary"
+          "cwd": "${workspaceFolder}/../NodeJS-smartLibrary"
         }
       },
       {
@@ -444,7 +444,7 @@
           "runOn": "folderOpen"
         },
         "options": {
-          "cwd": "${workspaceFolder}/NodeJS-smartPeople-API",
+          "cwd": "${workspaceFolder}/../NodeJS-smartPeople-API",
           "env": { "DEBUG": "fast-sheet-parser,pipeline" }
         }
       },
@@ -466,7 +466,7 @@
         },
         "options": {
           "env": { "RELEASE_DB_NAME": "smartapps-v2" },
-          "cwd": "${workspaceFolder}/NodeJS-smartPeople-API"
+          "cwd": "${workspaceFolder}/../NodeJS-smartPeople-API"
         }
       },
       {
@@ -487,7 +487,7 @@
           "runOn": "folderOpen"
         },
         "options": {
-          "cwd": "${workspaceFolder}/NodeJS-LudiCloud-API",
+          "cwd": "${workspaceFolder}/../NodeJS-LudiCloud-API",
           "env": { "DEBUG": "fast-sheet-parser,pipeline" }
         }
       },
@@ -511,7 +511,7 @@
           "env": {
             "RELEASE_DB_NAME": "smartapps-v2"
           },
-          "cwd": "${workspaceFolder}/NodeJS-LudiCloud-API"
+          "cwd": "${workspaceFolder}/../NodeJS-LudiCloud-API"
         }
       },
       {
@@ -534,7 +534,7 @@
           "env": {
             "SERVER_PORT": "3000"
           },
-          "cwd": "${workspaceFolder}/ReactJS-Ludicloud"
+          "cwd": "${workspaceFolder}/../ReactJS-Ludicloud"
         }
       },
       {
@@ -557,7 +557,7 @@
           "env": {
             "SERVER_PORT": "4000"
           },
-          "cwd": "${workspaceFolder}/ReactJS-smartLibrary"
+          "cwd": "${workspaceFolder}/../ReactJS-smartLibrary"
         }
       },
       {
@@ -580,7 +580,7 @@
           "env": {
             "SERVER_PORT": "5000"
           },
-          "cwd": "${workspaceFolder}/ReactJS-smartPeople"
+          "cwd": "${workspaceFolder}/../ReactJS-smartPeople"
         }
       }
     ]
@@ -636,10 +636,10 @@
       // "${workspaceFolder}/../ReactJS-smartPlan-UI"
     ],
     "terminal.integrated.env.osx": {
-      "PATH": "${workspaceFolder}/node_modules/.bin:../eslint-config/node_modules/.bin"
+      "PATH": "${workspaceFolder}/../node_modules/.bin:../eslint-config/node_modules/.bin"
     },
     "terminal.integrated.env.linux": {
-      "PATH": "${workspaceFolder}/node_modules/.bin:../eslint-config/node_modules/.bin"
+      "PATH": "${workspaceFolder}/../node_modules/.bin:../eslint-config/node_modules/.bin"
     },
     "i18n-ally.localesPaths": []
   }
