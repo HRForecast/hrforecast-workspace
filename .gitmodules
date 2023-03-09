@@ -8,7 +8,7 @@
 	branch = master
 [submodule "@ludi/api-v1"]
 	path = NodeJS-LudiCloud
-	url = git@github.com:HRForecast/NodeJS-Ludicloud.git
+	url = git@github.com:HRForecast/Nodejs-Ludicloud.git
 	branch = master
 [submodule "@ludi/api-v2"]
 	path = NodeJS-LudiCloud-API
